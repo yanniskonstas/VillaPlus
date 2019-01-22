@@ -17,7 +17,7 @@ Implementation notes
 - The DataAccess layer supplies the database-based implementations of the Domain classes.
 - ProductRepository is an abstract class that in our case is implemented by the SqlProductRepository and the TestProductRepository
 - ProductService class uses construction injection and the code is loosely coupled as it consumes the abstraction
-- FOR this example I inject and use the TestProductRepository, for testing purposes. You could implement the SqlProductRepository or create another repository for data access 
+- For this example I inject and use the TestProductRepository, for testing purposes. You could implement the SqlProductRepository or create another repository for data access 
 - In a production application is preferable to use DI containers
 - Promotions are handled by the ProductService and you can apply some minimal discount rules as starting and ending dates for the promotion to be valid, discount type, numbers of items required etc. More validations can be added and more rules to be introduced 
 - For simplicity, the Basket class is calculating the discount but this functionality can be moved to another layer by creating, for example, a promotion/discount service. 
