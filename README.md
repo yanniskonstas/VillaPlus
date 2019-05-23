@@ -2,14 +2,8 @@
 
 Pricing
 
-Background: a basket of items is a common ecommerce feature, allowing users to add several items to their virtual basket and pay for all the items at once. Merchants sometimes offer promotional discounts such as buy two, get one free for certain items or combinations of items. It is important to know the total price of all the items in a basket both to keep the customer informed as the basket is updated and to charge the right amount when paying for the basket. 
-Task: please implement C# code that calculates the total price of a given set of items. The solution should support applying discount rules, specifically a “buy two, get one free” deal.
-
-Notes:
--	The implementation should be a fully working maintainable pricing solution that is of production quality.
--	This task doesn’t require implementing a shopping basket or an eCommerce web site
--	As a guideline, please aim to spend about two hours working on a solution for this task
--	The task and / or solution shouldn’t be publicly shared, eg. using your GitHub profile or other channels
+A basket of items is a common ecommerce feature, allowing users to add several items to their virtual basket and pay for all the items at once. Merchants sometimes offer promotional discounts such as buy two, get one free for certain items or combinations of items. It is important to know the total price of all the items in a basket both to keep the customer informed as the basket is updated and to charge the right amount when paying for the basket. 
+The solution calculates the total price of a given set of items and provides support by applying discount rules, specifically a “buy two, get one free” deal.
 
 Implementation notes
 
